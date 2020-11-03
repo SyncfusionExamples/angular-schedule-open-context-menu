@@ -1,27 +1,18 @@
-# Angular Schedule - Open Context-menu at left-click
+# How to open Context Menu on the left click
+This project helps you to open the context-menu at left-click of the mouse when interacting with the Scheduler.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+## Scheduler features covered in this project
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8 with a node version of 10.16.0.
+The following features are included with this project.
+* The context menu allows users to easily adding, editing, deleting appointments of the Scheduler.
+* The context menu opened at the left-click of the mouse.
+* Populated local data with basic views in the Angular Schedule.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## How to run this application?
+* To run this application, you need to first clone this repository to your system.
+* Open command prompt form the project root folder and run the `npm install` command in command prompt to install the necessary packages that required to run this application. locally.
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Further help
-
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
