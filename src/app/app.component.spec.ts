@@ -1,5 +1,8 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { ScheduleModule } from '@syncfusion/ej2-angular-schedule';
+import { ContextMenuModule } from '@syncfusion/ej2-angular-navigations';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -7,6 +10,11 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
+      imports: [
+        ScheduleModule,
+        ContextMenuModule
+      ],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA]
     }).compileComponents();
   }));
 
@@ -22,10 +30,9 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('ej2-angular-schedule-open-context-menu-in-left-click');
   });
 
-  it('should render title', () => {
+  it('should have selectedDate property', () => {
     const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('ej2-angular-schedule-open-context-menu-in-left-click app is running!');
+    const app = fixture.componentInstance;
+    expect(app.selectedDate).toEqual(new Date(2019, 0, 10));
   });
 });

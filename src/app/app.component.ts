@@ -15,6 +15,7 @@ import { scheduleData } from './data';
   providers: [DayService, WeekService, WorkWeekService, MonthService, AgendaService]
 })
 export class AppComponent {
+  public title = 'ej2-angular-schedule-open-context-menu-in-left-click';
   @ViewChild('scheduleObj', { static: false }) public scheduleObj: ScheduleComponent;
   @ViewChild('menuObj', { static: false }) public menuObj: ContextMenuComponent;
   public allowResizing: boolean = false;
