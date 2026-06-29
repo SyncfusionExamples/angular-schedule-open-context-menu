@@ -1,12 +1,9 @@
 # How to open Context Menu on the left click
 
-## Repository Description
+This project demonstrates a fully functional Angular application that implements a custom context menu opened on left-click events when interacting with the [Angular Scheduler](https://www.syncfusion.com/angular-components/angular-scheduler) component. The application showcases event handling, context menu management, and appointment manipulation capabilities, providing a practical example for developers building interactive scheduling solutions.
 
-This project demonstrates a fully functional Angular application that implements a custom context menu opened on left-click events when interacting with the Syncfusion Angular Scheduler component. The application showcases event handling, context menu management, and appointment manipulation capabilities, providing a practical example for developers building interactive scheduling solutions.
+## Features
 
-## Scheduler features covered in this project
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8 with a node version of 10.16.0.
 The following features are included with this project:
 
 * The context menu allows users to easily add, edit, and delete appointments of the Scheduler
